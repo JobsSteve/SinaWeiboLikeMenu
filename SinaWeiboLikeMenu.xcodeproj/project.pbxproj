@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5638DD06187C5A86003B16A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5638DD05187C5A86003B16A3 /* Foundation.framework */; };
+		5638DD08187C5A86003B16A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5638DD07187C5A86003B16A3 /* CoreGraphics.framework */; };
+		5638DD0A187C5A86003B16A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5638DD09187C5A86003B16A3 /* UIKit.framework */; };
+		5638DD10187C5A86003B16A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5638DD0E187C5A86003B16A3 /* InfoPlist.strings */; };
+		5638DD12187C5A86003B16A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5638DD11187C5A86003B16A3 /* main.m */; };
+		5638DD16187C5A86003B16A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5638DD15187C5A86003B16A3 /* AppDelegate.m */; };
+		5638DD18187C5A86003B16A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5638DD17187C5A86003B16A3 /* Images.xcassets */; };
+		5638DD1F187C5A86003B16A3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5638DD1E187C5A86003B16A3 /* XCTest.framework */; };
+		5638DD20187C5A86003B16A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5638DD05187C5A86003B16A3 /* Foundation.framework */; };
+		5638DD21187C5A86003B16A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5638DD09187C5A86003B16A3 /* UIKit.framework */; };
+		5638DD29187C5A86003B16A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5638DD27187C5A86003B16A3 /* InfoPlist.strings */; };
+		5638DD2B187C5A86003B16A3 /* SinaWeiboLikeMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5638DD2A187C5A86003B16A3 /* SinaWeiboLikeMenuTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5638DD22187C5A86003B16A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5638DCFA187C5A86003B16A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5638DD01187C5A86003B16A3;
+			remoteInfo = SinaWeiboLikeMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5638DD02187C5A86003B16A3 /* SinaWeiboLikeMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinaWeiboLikeMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5638DD05187C5A86003B16A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5638DD07187C5A86003B16A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5638DD09187C5A86003B16A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5638DD0D187C5A86003B16A3 /* SinaWeiboLikeMenu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SinaWeiboLikeMenu-Info.plist"; sourceTree = "<group>"; };
+		5638DD0F187C5A86003B16A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5638DD11187C5A86003B16A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5638DD13187C5A86003B16A3 /* SinaWeiboLikeMenu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SinaWeiboLikeMenu-Prefix.pch"; sourceTree = "<group>"; };
+		5638DD14187C5A86003B16A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5638DD15187C5A86003B16A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5638DD17187C5A86003B16A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5638DD1D187C5A86003B16A3 /* SinaWeiboLikeMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinaWeiboLikeMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5638DD1E187C5A86003B16A3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5638DD26187C5A86003B16A3 /* SinaWeiboLikeMenuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SinaWeiboLikeMenuTests-Info.plist"; sourceTree = "<group>"; };
+		5638DD28187C5A86003B16A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5638DD2A187C5A86003B16A3 /* SinaWeiboLikeMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinaWeiboLikeMenuTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5638DCFF187C5A86003B16A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5638DD08187C5A86003B16A3 /* CoreGraphics.framework in Frameworks */,
+				5638DD0A187C5A86003B16A3 /* UIKit.framework in Frameworks */,
+				5638DD06187C5A86003B16A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5638DD1A187C5A86003B16A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5638DD1F187C5A86003B16A3 /* XCTest.framework in Frameworks */,
+				5638DD21187C5A86003B16A3 /* UIKit.framework in Frameworks */,
+				5638DD20187C5A86003B16A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5638DCF9187C5A86003B16A3 = {
+			isa = PBXGroup;
+			children = (
+				5638DD0B187C5A86003B16A3 /* SinaWeiboLikeMenu */,
+				5638DD24187C5A86003B16A3 /* SinaWeiboLikeMenuTests */,
+				5638DD04187C5A86003B16A3 /* Frameworks */,
+				5638DD03187C5A86003B16A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5638DD03187C5A86003B16A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5638DD02187C5A86003B16A3 /* SinaWeiboLikeMenu.app */,
+				5638DD1D187C5A86003B16A3 /* SinaWeiboLikeMenuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5638DD04187C5A86003B16A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5638DD05187C5A86003B16A3 /* Foundation.framework */,
+				5638DD07187C5A86003B16A3 /* CoreGraphics.framework */,
+				5638DD09187C5A86003B16A3 /* UIKit.framework */,
+				5638DD1E187C5A86003B16A3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5638DD0B187C5A86003B16A3 /* SinaWeiboLikeMenu */ = {
+			isa = PBXGroup;
+			children = (
+				5638DD14187C5A86003B16A3 /* AppDelegate.h */,
+				5638DD15187C5A86003B16A3 /* AppDelegate.m */,
+				5638DD17187C5A86003B16A3 /* Images.xcassets */,
+				5638DD0C187C5A86003B16A3 /* Supporting Files */,
+			);
+			path = SinaWeiboLikeMenu;
+			sourceTree = "<group>";
+		};
+		5638DD0C187C5A86003B16A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5638DD0D187C5A86003B16A3 /* SinaWeiboLikeMenu-Info.plist */,
+				5638DD0E187C5A86003B16A3 /* InfoPlist.strings */,
+				5638DD11187C5A86003B16A3 /* main.m */,
+				5638DD13187C5A86003B16A3 /* SinaWeiboLikeMenu-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5638DD24187C5A86003B16A3 /* SinaWeiboLikeMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				5638DD2A187C5A86003B16A3 /* SinaWeiboLikeMenuTests.m */,
+				5638DD25187C5A86003B16A3 /* Supporting Files */,
+			);
+			path = SinaWeiboLikeMenuTests;
+			sourceTree = "<group>";
+		};
+		5638DD25187C5A86003B16A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5638DD26187C5A86003B16A3 /* SinaWeiboLikeMenuTests-Info.plist */,
+				5638DD27187C5A86003B16A3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5638DD01187C5A86003B16A3 /* SinaWeiboLikeMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5638DD2E187C5A86003B16A3 /* Build configuration list for PBXNativeTarget "SinaWeiboLikeMenu" */;
+			buildPhases = (
+				5638DCFE187C5A86003B16A3 /* Sources */,
+				5638DCFF187C5A86003B16A3 /* Frameworks */,
+				5638DD00187C5A86003B16A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SinaWeiboLikeMenu;
+			productName = SinaWeiboLikeMenu;
+			productReference = 5638DD02187C5A86003B16A3 /* SinaWeiboLikeMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5638DD1C187C5A86003B16A3 /* SinaWeiboLikeMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5638DD31187C5A86003B16A3 /* Build configuration list for PBXNativeTarget "SinaWeiboLikeMenuTests" */;
+			buildPhases = (
+				5638DD19187C5A86003B16A3 /* Sources */,
+				5638DD1A187C5A86003B16A3 /* Frameworks */,
+				5638DD1B187C5A86003B16A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5638DD23187C5A86003B16A3 /* PBXTargetDependency */,
+			);
+			name = SinaWeiboLikeMenuTests;
+			productName = SinaWeiboLikeMenuTests;
+			productReference = 5638DD1D187C5A86003B16A3 /* SinaWeiboLikeMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5638DCFA187C5A86003B16A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					5638DD1C187C5A86003B16A3 = {
+						TestTargetID = 5638DD01187C5A86003B16A3;
+					};
+				};
+			};
+			buildConfigurationList = 5638DCFD187C5A86003B16A3 /* Build configuration list for PBXProject "SinaWeiboLikeMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5638DCF9187C5A86003B16A3;
+			productRefGroup = 5638DD03187C5A86003B16A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5638DD01187C5A86003B16A3 /* SinaWeiboLikeMenu */,
+				5638DD1C187C5A86003B16A3 /* SinaWeiboLikeMenuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5638DD00187C5A86003B16A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5638DD10187C5A86003B16A3 /* InfoPlist.strings in Resources */,
+				5638DD18187C5A86003B16A3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5638DD1B187C5A86003B16A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5638DD29187C5A86003B16A3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5638DCFE187C5A86003B16A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5638DD16187C5A86003B16A3 /* AppDelegate.m in Sources */,
+				5638DD12187C5A86003B16A3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5638DD19187C5A86003B16A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5638DD2B187C5A86003B16A3 /* SinaWeiboLikeMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5638DD23187C5A86003B16A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5638DD01187C5A86003B16A3 /* SinaWeiboLikeMenu */;
+			targetProxy = 5638DD22187C5A86003B16A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5638DD0E187C5A86003B16A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5638DD0F187C5A86003B16A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5638DD27187C5A86003B16A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5638DD28187C5A86003B16A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5638DD2C187C5A86003B16A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5638DD2D187C5A86003B16A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5638DD2F187C5A86003B16A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SinaWeiboLikeMenu/SinaWeiboLikeMenu-Prefix.pch";
+				INFOPLIST_FILE = "SinaWeiboLikeMenu/SinaWeiboLikeMenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5638DD30187C5A86003B16A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SinaWeiboLikeMenu/SinaWeiboLikeMenu-Prefix.pch";
+				INFOPLIST_FILE = "SinaWeiboLikeMenu/SinaWeiboLikeMenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5638DD32187C5A86003B16A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SinaWeiboLikeMenu.app/SinaWeiboLikeMenu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SinaWeiboLikeMenu/SinaWeiboLikeMenu-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SinaWeiboLikeMenuTests/SinaWeiboLikeMenuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5638DD33187C5A86003B16A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SinaWeiboLikeMenu.app/SinaWeiboLikeMenu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SinaWeiboLikeMenu/SinaWeiboLikeMenu-Prefix.pch";
+				INFOPLIST_FILE = "SinaWeiboLikeMenuTests/SinaWeiboLikeMenuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5638DCFD187C5A86003B16A3 /* Build configuration list for PBXProject "SinaWeiboLikeMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5638DD2C187C5A86003B16A3 /* Debug */,
+				5638DD2D187C5A86003B16A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5638DD2E187C5A86003B16A3 /* Build configuration list for PBXNativeTarget "SinaWeiboLikeMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5638DD2F187C5A86003B16A3 /* Debug */,
+				5638DD30187C5A86003B16A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5638DD31187C5A86003B16A3 /* Build configuration list for PBXNativeTarget "SinaWeiboLikeMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5638DD32187C5A86003B16A3 /* Debug */,
+				5638DD33187C5A86003B16A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5638DCFA187C5A86003B16A3 /* Project object */;
+}
