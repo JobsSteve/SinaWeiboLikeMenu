@@ -2,9 +2,9 @@ SinaWeiboLikeMenu
 
 **************
 
-
 **A Quick peek**
-[](https://github.com/SmallBlackCat/SinaWeiboLikeMenu/master/effect/sina_weibo_like_menu.gif)
+
+![A Quick peek](https://github.com/SmallBlackCat/SinaWeiboLikeMenu/blob/master/effect/sina_weibo_like_menu.gif?raw=true)
 
 ### The Project base on : [itouch2's TumblrLikeMenu](https://github.com/itouch2/TumblrLikeMenu)
 
