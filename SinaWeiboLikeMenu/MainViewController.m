@@ -45,7 +45,7 @@
     weiboLikeBtn.titleLabel.font = [UIFont boldSystemFontOfSize:18];
     [weiboLikeBtn addTarget:self action:@selector(weiboLikeBtnAction:) forControlEvents:UIControlEventTouchUpInside];
     weiboLikeBtn.frame = CGRectMake(0, 0, 140, 20);
-    weiboLikeBtn.center = CGPointMake(CGRectGetWidth(self.view.bounds) / 2, CGRectGetHeight(self.view.bounds) / 2 + 60);
+    weiboLikeBtn.center = CGPointMake(CGRectGetWidth(self.view.bounds) / 2, CGRectGetHeight(self.view.bounds) / 2 - 180);
     [self.view addSubview:weiboLikeBtn];
 }
 

@@ -22,7 +22,7 @@
     
     MainViewController *mainVC = [MainViewController new];
     self.window.rootViewController = mainVC;
-    
+
     return YES;
 }
 

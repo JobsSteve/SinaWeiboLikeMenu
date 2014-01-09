@@ -2,6 +2,10 @@ SinaWeiboLikeMenu
 
 **************
 
+
+**A Quick peek**
+[](https://github.com/SmallBlackCat/SinaWeiboLikeMenu/master/effect/sina_weibo_like_menu.gif)
+
 ### The Project base on : [itouch2's TumblrLikeMenu](https://github.com/itouch2/TumblrLikeMenu)
 
 
@@ -78,5 +82,8 @@ you can set item's selectBlock to Cover weiboMenu's selectBlock
     };
   
 
-**A Quick Peek**
+**Require**
+
+* ARC
+* iOS6+
 

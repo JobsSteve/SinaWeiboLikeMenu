@@ -76,7 +76,7 @@
 
         
         self.delayAppearArray = @[@(0.0), @(0.1), @(0.2), @(0.05), @(0.15), @(0.25)];
-        // reversed array.
+        
         self.delayDisappearArray = @[@(0.25), @(0.15), @(0.05), @(0.2), @(0.1), @(0.0)];
         
     }
@@ -227,7 +227,7 @@
     CGPoint finalPoint = CGPointMake(point.x, point.y + CGRectGetHeight(self.bounds) / 2 + 80);
     if (animted) {
         CABasicAnimation *disappear = [CABasicAnimation animationWithKeyPath:@"position"];
-        disappear.duration = 0.3;
+        disappear.duration = 0.2;
         disappear.fromValue = [NSValue valueWithCGPoint:point];
         disappear.toValue = [NSValue valueWithCGPoint:finalPoint];
         disappear.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn];
